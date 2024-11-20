@@ -1,0 +1,37 @@
+form {
+
+    display: grid;
+    grid-template-columns: repeat(1, 200px 300px);
+    gap: 10px 15px;
+    align-items: center;
+  }
+  
+  form label 
+  {
+    font-size: 20px;
+    justify-self: start;
+  }
+  
+  form input 
+  {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  form button {
+    grid-column: -1 / 1;
+    width: 150px;
+    justify-self: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  form button:hover {
+    background-color: #3a863e;
+  }
